@@ -140,5 +140,78 @@ nums = [1, 6, 5, 23, 55]
 # nums.sort(reverse=True) # sorts in descending order
 # print(nums)
 
-sortedCourses = sorted(courses)
-print(sortedCourses)
+# sortedCourses = sorted(courses)
+# print(sortedCourses)
+
+# print(min(nums)) # printing the minimum value from list
+
+# print(sum(nums)) # printing total value of the values in list
+
+# print(courses.index('CompScience')) # can get the index position of indicated value
+
+# you can check the presence of a value in list
+# print('Biology' in courses) # returns true of false
+
+# for index, item in enumerate(courses, start = 1):
+#     print(index, item)
+
+# coursesStr = ', '.join(courses) # redeclaration with new variable and separating with comma
+# print(coursesStr)
+
+# # you can comeback to the previous state with this:
+# newList = coursesStr.split(', ')
+# print(newList)
+
+
+
+
+
+
+# ==================================================TUPLES =====================================================
+
+# tuples are immutable and list are mutable
+
+tuple1 = ('Hello', 'Bye' , 'Hru')
+# print(tuple1)
+
+# tuple1[0] = 'Art'
+# print(tuple1) # this will return error, cuz 'tuple' object does not support item assignment
+
+
+
+
+
+# ==================================================SETS ==================================================================
+courseSet = {'History', 'Biology', 'Informatic', 'Arts'}
+courseSet2 = {'History', 'Biology', 'Math', 'CompScience'}
+# print(courseSet) # sets does not care about order!
+# # sets thow away duplicates
+
+# print('Math' in courseSet) #returns true or false
+
+# you can show the similar values in two sets like this:
+# print(courseSet.intersection(courseSet2)) 
+
+# # you can print different values which does not include similar ones:
+# print(courseSet.difference(courseSet2))
+
+# # you can unite values:
+# print(courseSet.union(courseSet2))
+
+
+
+# CREATING EMPTY LISTS, TUPLES AND SETS
+
+# EMPTY LIST:
+emptyList = []
+emptyList = list()
+
+# empty tuple
+emptyTuple = ()
+emptyTuple = tuple()
+
+# empty set
+# emptySet = {} # => this is not right way to create empty set, instead this will create a dictionary
+emptySet = set() # this is the right way to crate empty set
+
+    
